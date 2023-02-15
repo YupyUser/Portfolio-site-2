@@ -1,4 +1,4 @@
-# [GitHub Page](https://yupyuser.github.io/PortfolioSite2/)
+# [GitHub Page](https://yupyuser.github.io/Portfolio-site-2/)
 
 # Site for portfolio №2
 
