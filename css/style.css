@@ -1,2 +1,87 @@
 @import url(adaptive.css);
 @import url(nullStyle.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+@import url(../fonts/HeadingNowTrial-65Medium.ttf);
+
+.container {
+    width: 1050px;
+    margin: 0 auto;
+}
+
+.header {
+    background:url('../img/header.png') no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 655px;
+    padding-top: 24px ;
+}
+
+.header__nav {
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: space-between;
+    height: 64px;
+    border-radius: 30px;
+    padding: 0 20px;
+    
+}
+.header__nav-right-side {
+    display: flex;
+    align-items: center;
+}
+
+.header__nav-left-side {
+    display: flex;
+    justify-content: space-between;
+    width: 731px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 523px;
+}
+.links a {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 120%;
+color: #FFFFFF;
+}
+
+.header__messages-link {
+    display: flex;
+    align-items: center; 
+}
+.header__messages-link img {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 7px;
+    border-radius: 50%;
+}
+.header__messages-link ::after {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 0;
+    top: 0;
+    background: #EB5757;
+}
+.header__nav_button_container{
+    display:flex;
+    align-items: center;
+}
+.header__nav_button-lng {
+padding: 9px 14px;
+gap: 10px;
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 120%;
+color: #FFFFFF;
+border:1px solid #FFFFFF;
+border-radius: 30px;
+}
