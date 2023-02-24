@@ -1,4 +1,4 @@
-import obj from './translate.js';
+import obj from './translateObj.js';
 
 let currLng = 'en';
 
@@ -15,6 +15,6 @@ function changeLanguage () {
       document.querySelector(`.${key}-lng`).textContent = obj[key][currLng];
     }
     currLng = lngQueue[currLng];
-    btn.textContent = 'Change language to ' + currLng.toUpperCase();
+    btn.textContent = currLng.toUpperCase();
 };
-changeLanguage();   
+changeLanguage();
