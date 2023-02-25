@@ -1,7 +1,7 @@
 @import url(adaptive.css);
 @import url(nullStyle.css);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
-@import url(../fonts/HeadingNowTrial-65Medium.ttf);
+@import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 
 .container {
     width: 1050px;
@@ -14,6 +14,7 @@
     background-position: center;
     height: 655px;
     padding-top: 24px ;
+    overflow-x: hidden;
 }
 
 .header__nav {
@@ -85,4 +86,12 @@ line-height: 120%;
 color: #FFFFFF;
 border:1px solid #FFFFFF;
 border-radius: 30px;
+}
+
+.header__title {
+font-family: 'Tilt Warp', cursive;
+font-size: 80px;
+line-height: 120%;
+color: #FFFFFF;
+
 }
