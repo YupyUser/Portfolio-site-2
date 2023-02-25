@@ -4,6 +4,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 
 .container {
+    width: 1130px;
+    margin: 0 auto;
+}
+.special_container {
     width: 1050px;
     margin: 0 auto;
 }
@@ -140,3 +144,4 @@ color: #FFFFFF;
     justify-content: center;
     align-items: center;
 }
+
