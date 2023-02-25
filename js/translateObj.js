@@ -42,6 +42,29 @@ let obj = {
     header__button: {
         ru:'Получить войс тэг',
         en:'Get your custom tag'
+    },
+    how_it_works__title: {
+        ru:'Как это работает?',
+        en:'How it works?',
+    },
+    how_it_works__li_text_1: {
+      ru:`Прослушай примеры наших голосов 
+      и сделай свой выбор`,
+      en:'Listen to the audio samples and choose which voice(s) you want'  
+    },
+    how_it_works__li_text_2: {
+      ru:'Выбери подходящий пакет в разделе «Цены» и нажми на кнопку «Получить войс тэг»',
+      en:`Choose your package in the "Prices" section and click on the
+      "Get your custom tag" button`  
+    },
+    how_it_works__li_text_3: {
+      ru:'Заполни форму заказа, включив все свои пожелания',
+      en:`Fill out the form. Include your tag phrase(s), any requests like
+      mood, effects, etc.`  
+    },
+    how_it_works__warning: {
+        ru:`Не беспокойтесь о произношении вашего имени. Мы свяжемся с вами, чтобы уточнить это.`,
+        en:`Don't worry about the pronunciation of your name. We will contact you to clarify it.`
     }
 };
 
