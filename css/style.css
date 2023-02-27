@@ -13,12 +13,13 @@
 }
 
 .header {
-    background:url('../img/header.png') no-repeat;
+    background:linear-gradient(0deg,#10141E 5%,transparent),url('../img/header.png') no-repeat;
     background-size: cover;
     background-position: center;
     height: 655px;
     padding-top: 24px ;
     overflow-x: hidden;
+    
 }
 
 .header__nav {
@@ -143,5 +144,112 @@ color: #FFFFFF;
     border-radius: 60px;   
     justify-content: center;
     align-items: center;
+
+    margin-bottom: 54px;
 }
+
+.how_it_works {
+    background: #10141E;
+}
+.how_it_works__content {
+    background: rgba(255, 255, 255, 0.04);
+    border-radius: 40px;
+    height: 266px;
+    padding: 24px;
+}
+
+.how_it_works__title-lng {
+font-family: 'Tilt Warp', cursive;
+font-style: normal;
+font-weight: 500;
+font-size: 32px;
+line-height: 120%;
+color: #FFFFFF;
+letter-spacing: 4px;
+
+padding: 75px 0 24px 0;
+}
+
+.how_it_works__list {
+    display:flex;
+    justify-content: space-between;
+}
+.how_it_works__li {
+    display: flex;
+}
+.how_it_works__li p {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+color: #FFFFFF;
+
+padding: 15px 0 15px 8px ;
+}
+
+.how_it_works__img {
+ width: 72px;
+ height: 118px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.how_it_works__img img {
+    display: block;
+}
+
+.how_it_works__li_text_1-lng {
+    width: 170px;
+}
+.how_it_works__li_text_2-lng {
+    width: 200px;
+}
+.how_it_works__li_text_3-lng {
+    width: 184px;
+}
+
+
+.how_it_works__li_1 {
+    width: 250px;
+}
+.how_it_works__li_2 {
+    width: 290px;
+}
+.how_it_works__li_3 {
+    width: 264px;
+}
+
+.how_it_works_alert {
+    display: flex;
+    justify-content: space-between;
+background: rgba(255, 255, 255, 0.1);
+border-radius: 20px;
+    margin: 0 auto;
+    width: 510px;
+    padding: 16px 20px;
+}
+
+.how_it_works__warning-lng {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 140%;
+text-align: center;
+color: #FFFFFF;
+
+width: 417px;
+}
+
+.how_it_works__excl_point {
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 700;
+font-size: 37px;
+line-height: 120%;
+color: #FFFFFF;
+}
+
+
 
