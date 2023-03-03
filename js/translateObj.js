@@ -129,6 +129,30 @@ let obj = {
         en:`Not the right sound for your brand? If you aren't happy with
         your voice tag, we'll re-record it or change the effects!`
     },
+
+
+
+    tag_samp__title: {
+        ru:`Примеры`,
+        en:`Tags Samples`
+    },
+
+    tag_samp__voice_elem_title_1:{
+        ru:`Мужской голос (Английский)`,
+        en:`Male voice`
+    },
+    tag_samp__voice_elem_title_2:{
+        ru:`Женский голос (Английский)`,
+        en:`Female voice`
+    },
+    tag_samp__voice_elem_title_3:{
+        ru:`Аниме голос`,
+        en:`Anime voice`
+    },
+    tag_samp__voice_elem_title_4:{
+        ru:`Детский голос`,
+        en:`Kid voice`
+    },
 };
 
 export default obj;

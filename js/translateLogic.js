@@ -1,3 +1,4 @@
+import adtnlBlocks from './adtnlBlocks.js';
 import obj from './translateObj.js';
 
 let currLng = 'en';
@@ -14,7 +15,9 @@ function changeLanguage () {
     for (let key in obj) {
       document.querySelector(`.${key}-lng`).textContent = obj[key][currLng];
     }
+    adtnlBlocks.forEach((item)=> document.querySelectorAll('.' + item + '-russian').forEach((item)=> item.classList.toggle('hidden')));
     currLng = lngQueue[currLng];
+    
     btn.textContent = currLng.toUpperCase();
 };
 changeLanguage();

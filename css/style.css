@@ -3,6 +3,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
 
+.btn {
+    width: 50px;
+    height: 50px;
+    display: inline;
+    position: fixed;
+    z-index: 2;
+}
+
 .container {
     width: 1130px;
     margin: 0 auto;
@@ -308,5 +316,88 @@ color: #FFFFFF;
 margin-bottom: 24px;
 }
 
+
+.hidden {
+    display:none;
+}
+
+
+.tag_samp {
+    background: #10141E;
+    padding-top: 100px ;
+}
+
+.tag_samp__title-lng {
+    font-family: 'Tilt Warp', cursive;
+    letter-spacing: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 33px;
+    line-height: 120%;
+    color: #FFFFFF;
+
+    margin-bottom: 24px;
+}
+
+.tag_samp__male_female_container div p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.tag_samp__anim_kid_container div p {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+.tag_samp__voice_elem_title-russian {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 32px;
+}
+
+.tag_samp__male_female_container {
+    display: flex;
+    justify-content: space-between;
+}
+.tag_samp__anim_kid_container {
+    display:flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.voice_message {
+    margin-top: 16px;
+}
+
+.voice_el {
+    width: 510px;
+    padding: 24px;
+    border-radius: 20px;
+    background-size: cover;
+    
+}
+
+.tag_samp__male_voice {
+    background: rgba(255, 255, 255, 0.1) url('../img/voice_background1.png') no-repeat;
+}
+.tag_samp__female_voice {
+    background: rgba(255, 255, 255, 0.1) url('../img/voice_background2.png') no-repeat;
+}
+.tag_samp__anime_voice {
+    background: rgba(255, 255, 255, 0.1) url('../img/voice_background3.png') no-repeat;
+}
+.tag_samp__kid_voice {
+    background: rgba(255, 255, 255, 0.1) url('../img/voice_background4.png') no-repeat;
+}
 
 
