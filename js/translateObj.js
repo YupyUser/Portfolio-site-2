@@ -153,6 +153,48 @@ let obj = {
         ru:`Детский голос`,
         en:`Kid voice`
     },
+
+
+    futures__title:{
+        ru:`Что ты получишь?`,
+        en:`Futures`
+    },
+    futures__li_title_1:{
+        ru:`Несколько вариантов твоего тэга`,
+        en:`Multiple recordings`
+    },
+    futures__li_title_2:{
+        ru:`FX + Mixed + Dry Recording`,
+        en:`FX + Mixed + Dry`
+    },
+    futures__li_title_3:{
+        ru:`Качество WAV`,
+        en:`HQ WAV files`
+    },
+    futures__li_title_4:{
+        ru:`Всё по твоим пожеланиям`,
+        en:`Fully Custom`
+    },
+
+    futures__li_p_1:{
+        ru:`Мы записываем каждый тэг минимум 3 раза, чтобы ты мог выбрать наиболее подходящий вариант`,
+        en:`We record each day at least 3 times so you can choose the best
+        one`
+    },
+    futures__li_p_2:{
+        ru:`Мы отправляем 3 варианта каждого тэга: с эффектами, базовой обработкой и полностью сухую дорожку, чтобы ты мог обработать её сам. Так, например, при заказе 3 тэгов ты получишь сразу 9 разных версий`,
+        en:`We send 3 variations of each voice tag: with sound FX, basic
+        mixing, and the dry recording`
+    },
+    futures__li_p_3:{
+        ru:`Все тэги высылаются в высоком качестве в формате WAV 24 Bit`,
+        en:`You will receive your voice tag(s) in the highest quality. WAV
+        format 24 Bit`
+    },
+    futures__li_p_4:{
+        ru:`Можешь запросить любые эффекты, настроение и прочее. Главное, не забудь описать их в форме заказа`,
+        en:`You can request any effects, style and all you want!`
+    },
 };
 
 export default obj;
