@@ -506,13 +506,49 @@ margin-bottom: 24px;
 
 
 
-
-
-
 .ultimate_offer-russian {
     width: 420px;
     background: rgba(0, 0, 0, 0.4);
     backdrop-filter: blur(32px);
     border-radius: 20px;
+    padding: 24px;
 }
 
+.ultimate_offer__title-lng {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+.ultimate_offer__li {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.ultimate_offer__list {
+    margin-top: 8px;
+}
+
+.ultimate_offer__button {
+    margin-top: 21px;
+    width: 274px;
+    padding: 21px;
+    text-align: center;
+    background-color: transparent;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 120%;
+
+    color: #FFFFFF;
+    border-radius: 60px;
+    border: 1px solid #0EF0A8;
+}
