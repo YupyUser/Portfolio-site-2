@@ -195,6 +195,63 @@ let obj = {
         ru:`Можешь запросить любые эффекты, настроение и прочее. Главное, не забудь описать их в форме заказа`,
         en:`You can request any effects, style and all you want!`
     },
+
+
+    pricing__title: {
+        ru:`Цены`,
+        en:`Pricing`
+    },
+
+    pricing__tag_number_1: {
+        ru:`1 Тэг`,
+        en:`1 Tag`
+    },
+    pricing__tag_number_2: {
+        ru:`2 Тэга`,
+        en:`2 Tags`
+    },
+    pricing__tag_number_3: {
+        ru:`3 Тэга`,
+        en:`3 Tags`
+    },
+    pricing__tag_number_4: {
+        ru:`4 Тэга`,
+        en:`4 Tags`
+    },
+
+    pricing__table_left_title_1: {
+        ru:`1 Голос`,
+        en:`1 Voices`
+    },
+    pricing__table_left_title_2: {
+        ru:`2 Голоса`,
+        en:`2 Voices`
+    },
+    pricing__table_left_title_3: {
+        ru:`3 Голоса`,
+        en:`3 Voices`
+    },
+    pricing__table_left_title_4: {
+        ru:`4 Голоса`,
+        en:`4 Voices`
+    },
+
+    pricing__table_left_subTitle_1: {
+        ru:`Можете выбрать любой голос`,
+        en:`You can pick any voice`
+    },
+    pricing__table_left_subTitle_2: {
+        ru:`Можете выбрать любые 2 голоса`,
+        en:`You can pick any 2 voices`
+    },
+    pricing__table_left_subTitle_3: {
+        ru:`Можете выбрать любые 3 голоса`,
+        en:`You can pick any 3 voices`
+    },
+    pricing__table_left_subTitle_4: {
+        ru:`Можете выбрать все 4 голоса`,
+        en:`You can pick all 4 voices`
+    },
 };
 
 export default obj;
