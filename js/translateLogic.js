@@ -1,5 +1,6 @@
 import adtnlBlocks from './adtnlBlocks.js';
 import obj from './translateObj.js';
+import changeCurrency from './currencyChanger.js';
 
 let currLng = 'en';
 
@@ -24,9 +25,11 @@ function changeLanguage () {
 
     adtnlBlocks.forEach((item)=> document.querySelectorAll('.' + item + '-russian').forEach((item)=> item.classList.toggle('hidden')));
     
-    
+    changeCurrency();
+
     currLng = lngQueue[currLng];
     
     btn.textContent = currLng.toUpperCase();
 };
 changeLanguage();
+changeCurrency();
