@@ -252,6 +252,10 @@ let obj = {
         ru:`Можете выбрать все 4 голоса`,
         en:`You can pick all 4 voices`
     },
+    pricing__button: {
+        ru:`Получить войс тэг`,
+        en:`Get your custom tag`
+    }
 };
 
 export default obj;
