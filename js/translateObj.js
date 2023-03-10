@@ -255,7 +255,54 @@ let obj = {
     pricing__button: {
         ru:`Получить войс тэг`,
         en:`Get your custom tag`
-    }
+    },
+
+
+    reviews__title:{
+        ru:`Отзывы`,
+        en:`Reviews`
+    },
+
+    reviews__review_text_1:{
+        ru:`Большое вам спасибо, ребят, за проделанную работу) всё вышло суперски) Если что, знаю к кому теперь обратиться`,
+        en:`recieved them.. They are perfect.. thank you for your serious 👍`
+    },
+    reviews__review_text_2:{
+        ru:`Здравствуйте! все отлично, мне очень нравится! отдельное спасибо за большое количество разных вариаций, это прям круто!`,
+        en:`If someone ask me for a voice tag, i will recommand your work`
+    },
+    reviews__review_text_3:{
+        ru:`Вау!!!!!<br>Получилось просто шикарно! Спасибо вам огромное!`,
+        en:`Man you da shit bruh these go I'll be at you for more business
+        4sure 💯 and do you mix and master? I do too but i be getting
+        bogged down i could use the help`
+    },
+    reviews__review_text_4:{
+        ru:`Спасибо большое за тэг, профессионалы своего дела 🦀 👨‍🍳`,
+        en:`i've download it and they are dope thanks man`
+    },
+    reviews__review_text_5:{
+        ru:`Спасибо огромное &#128151;&#128151;&#128151;
+        Просто лучшие!`,
+        en:`Thanks ! I just got it appreciate it I'll difinitely be buying
+        another one in the future 👍🏾👍🏾🤘🏾🤘🏾🔥`
+    },
+    reviews__review_text_6:{
+        ru:`Благодарим за разработанный продукт! Чувство стиля, вкуса и слуха - на уровне!
+        Будем рекомендовать всем!`,
+        en:`Yo bro that's sweet man thank you 🙏 love it`
+    },
+    reviews__review_text_7:{
+        ru:`Спасибо огромное за тег! Это превзошло все мои ожидания! Посоветую вас всем своим друзьям 🔥&#128151;🔥&#128151;💖`,
+        en:`Thank you very much!! It was fiery!!! The wait was worth it
+        🔥🔥🔥🔥🖤🔥🖤🔥🖤🔥🖤🖤🔥🖤🔥🖤🔥`
+    },
+    reviews__review_text_8:{
+        ru:`Спасибо вам огромное!
+        Обязательно отмечу вас когда наступит релиз! 😻 Бомба!!`,
+        en:`amazing that's exactly it 😍 you are incredible i don't have the
+        words &#128151;`
+    },
 };
 
 export default obj;
